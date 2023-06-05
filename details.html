@@ -29,5 +29,19 @@
             <h2>Add Details</h2>
         </div>
     </div>
+    <script>
+        // Get the current page URL
+        const currentUrl = window.location.pathname;
+
+        // Get all the sidebar links
+        const sidebarLinks = document.querySelectorAll('.sidebar a');
+
+        // Loop through the links and check if the URL matches
+        sidebarLinks.forEach(link => {
+            if (link.getAttribute('href') === currentUrl) {
+                link.classList.add('active');
+            }
+        });
+    </script>
 </body>
 </html>
