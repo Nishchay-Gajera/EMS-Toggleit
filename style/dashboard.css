@@ -71,6 +71,9 @@ body {
   color: #ffffff;
   transition: 0.6s;
 }
+
+
+
 /* Form tasks */
 .form-container {
   background-color: #ffffff;
@@ -99,7 +102,7 @@ body {
   padding: 8px;
   background-color: #D9D9D9;
   border: none; 
-  margin: 8px; 
+  margin: 5px; 
 }
 
 .form-tasks button[type="submit"] {
@@ -110,5 +113,5 @@ body {
   padding: 8px;
   margin: 15px;
   border-radius: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
