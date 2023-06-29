@@ -1,0 +1,89 @@
+
+body{
+    background-color: #DCDCDC;
+}
+.center{
+    position: absolute;
+    top: 180px;
+    left: 60%;
+    height: 340px;
+    width: 550px;
+    border-radius: 20px;
+    background-color: #FFFF;
+}
+.center form{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.e-style{
+    padding-bottom: 15px;
+}
+.e-style ::placeholder{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.e-style input{
+    font-size:15px;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    width: 400px;
+    height: 49px;
+}
+.e-pass ::placeholder{
+    padding-left: 20px;
+    font-weight: bold;
+}
+.e-pass input{
+    font-size:15px ;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    width: 400px;
+    height: 49px;
+}
+.e-btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 455px;
+}
+hr{
+    border: 1px solid #DCDCDC;
+    width: 525px;
+}
+.e-btn input{
+    font-size: 18px;
+    background-color: #0556F3;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    width: 400px;
+    height: 49px;
+}
+.e-btn input:hover{
+    background-color: #2196f3;
+}
+.f-signup{
+    display: flex;
+    margin-top: 15px;
+}
+p{
+    color: #969696;
+    font-family: arial,sans-serif;
+    font-size:13px;
+    padding-left: 20px;
+    text-align: left;
+}
+a{
+    font-weight: bold;
+    padding-top: 12.5px;
+    padding-left: 275px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    text-decoration: none;
+    color: #969696;
+}
+img{
+    margin-top: 60px;
+    margin-left: 50px;
+    width: 700px;
+    height: 600px;
+}
